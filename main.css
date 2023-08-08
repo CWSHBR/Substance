@@ -1,0 +1,61 @@
+@keyframes fadein {
+    from {
+        color: rgb(255, 252, 222);
+    }
+  
+    to {
+        color: rgb(190, 190, 182);
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+        color: rgb(190, 190, 182);
+       
+    }
+  
+    to {
+        color: rgb(255, 252, 222);
+    }
+  }
+
+
+.top{
+    z-index: 0;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    align-self: center;
+    margin: auto;
+}
+body{
+    margin: 0;
+    background-color: #1a1a1a;
+    position: relative;
+}
+.icon{
+    width: 45%;
+    height: 45%;
+    color: rgb(255, 252, 222);
+    position: absolute;
+    top: 27.5%;
+  
+    animation-duration: 0.5s;
+    animation-name: fadeout;
+}
+
+.toleft{
+    left: 0px;
+}
+.toright{
+    right: 0px;
+}
+
+.icon:hover{
+    animation-duration: 0.5s;
+    animation-name: fadein;
+    color: rgb(190, 190, 182);
+}
+
