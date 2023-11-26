@@ -1,0 +1,39 @@
+body {
+    background-color: #EBEBD6;
+}
+
+header {
+    margin: 15px;
+    padding: 20px;
+    background-color: #A8A799;
+    border-radius: 25px;
+ 
+}
+
+img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+    margin: 10px;
+}
+
+.info {
+    margin: 15px;
+    text-align: left;
+}
+
+.name {
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.logo {
+    text-align: left;
+}
+
+
+html{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
